@@ -5,7 +5,7 @@
 body{
     width: 100vw;
     min-height: 100vh;
-    background: linear-gradient(rgb(63, 161, 221),rgb(156, 166, 158));
+    background: linear-gradient(rgba(97, 185, 83, 0.784),rgb(22, 24, 22));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,12 +14,12 @@ body{
     position: relative;
 }
 .clock{
-    width: 300px;
-    height: 300px;
-    background-color: #33c7b64c;
-    border: 4px solid rgb(105, 62, 62);
+    width: 320px;
+    height: 320px;
+    background-color: #32d2424c;
+    border: 9px solid rgba(84, 56, 42, 0.601);
     border-radius: 50%;
-    box-shadow: 6px 6px 20px rgb(90, 52, 52);
+    box-shadow: 6px 6px 20px rgb(13, 47, 25);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,9 +27,9 @@ body{
 .clock span{
     position: absolute;
     transform: rotate(calc(30deg * var(--angle)));
-    inset: 10px;
+    inset: 12px;
     text-align: center;
-    font-size: x-large;
+    font-size: 25px;
     font-weight: bold;
 }
 .clock p{
@@ -52,7 +52,7 @@ body{
 }
 .hands b{
     position: absolute;
-    width: 5px;
+    width: 4px;
     height: var(--h);
     border-radius: 20px;
     background-color: var(--handClr);
